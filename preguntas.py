@@ -169,7 +169,7 @@ def pregunta_04():
     mse_train = mean_squared_error(
         y_train,
         y_train_pred,
-    ).round(2
+    ).round(2)
 
     mse_test = mean_squared_error(
         y_test,
